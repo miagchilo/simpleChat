@@ -19,7 +19,7 @@ module.exports = {
       body: ["CosiTimes"]
     },
     extend: {
-      'hero': "url('https://giphy.com/embed/34JMWQFhrdlCiOXuNK/video')",
+      
     },
   },
   plugins: [],

@@ -27,6 +27,6 @@ button {
   color: #EFEFEF;
 }
 input {
-  background-color: #EFEFEF;
+  background-color: #f3c200;
 }
 </style>
