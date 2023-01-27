@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@font-face {
+    font-family: 'CosiTimes';
+    src: local('CosiTimes'), url(./fonts/CosiTimes.Cositimes-Bold.ttf) format('ttf');
+  };
+@font-face {
+    font-family: 'CosiTimes';
+    src: local('CosiTimes'), url(./fonts/CosiTimes.Cositimes-Light.ttf) format('ttf');
+  };
+   
+@tailwind utilities;
+@include font-face( CosiTimes-Bold, '/fonts/CosiTimes/CosiTimes-Bold.ttf',  Bold, ttf);
+@include font-face( CosiTimes-Light, '/fonts/CosiTimes/CosiTimes-Light.ttf',  Light, ttf);
+@include font-face( CosiTimes-Roman, '/fonts/CosiTimes/CosiTimes-Roman.ttf',  Roman, ttf);
+
+
